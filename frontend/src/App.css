@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(../images/bg-intro-desktop.png), #ff7a7a;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.active {
+	background-image: url('data:image/svg+xml,<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="%23FF7979" cx="12" cy="12" r="12"/><rect fill="%23FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="%23FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-origin: content-box;
+	border: 3px solid #ff7a7a;
+	border-radius: 4px;
+}
